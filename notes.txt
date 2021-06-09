@@ -71,6 +71,275 @@ set elements are defined in {}.
 aset = {10,20,30,10,20}
 
 
+operators
+------------
+
+
+arithmetic operators :  + - * % /
+
+relational operators :
+------------------------
+< <= > >= == !=
+
+logical operators
+------------------
+and   or not
+
+if name.isupper()  and len(name)> 0 :
+   # logical statements
+
+
+assignment operators   ( increment and decrement operators  ++ and -- are not allowed)
+------------------------
+= 
+
+val = 10
+val +=1    or  val= val + 1   
+
+
+special operators
+--------------------
+in
+as
+*
++   joining operator
+
+
+statements
+--------------
+if
+if-else
+if-elif-elif-elif..... else
+
+loop
+-----
+for 
+while
+
+jump statements
+----------------
+break
+continue
+
+
+functions
+-----------
+- builtin functions
+
+
+- user defined functions
+
+
+built-in functions
+--------------------
+
+print()
+input()
+range()
+len()
+help()
+dir()
+type()
+isinstance()
+id()
+max()
+min()
+sum()
+zip()
+typecasting functions
+-----------------
+list()
+tuple()
+dict()
+set()
+str()
+int()
+float()
+oct()
+hex()
+
+
+
+methods & functions
+------------------------
+
+
+- methods are object specific
+- methods are accessed with . symbol
+- string methods are different to list methods
+
+
+- functions are common for all the objects
+
+
+
+
+file handling
+--------------
+
+working with flat files  (  txt csv conf log dat rtf ... )
+working with third party files ( pdf docx pptx mp4  xlsx ...... )
+
+
+working with flat files
+--------------------------
+
+
+
+opening the file
+------------------
+syntax:  object = open(filename,mode)
+example:   fobj = open("customers.txt","r")
+
+
+close the file
+-------------
+syntax : object.close()
+example: fobj.close()
+
+
+writing to the file
+-----------------
+fobj = open("customers.txt","w")
+# lines
+fobj.close()
+
+
+
+example:   fobj = open("customers.txt","r")
+           If the file doesn't exist... will throw an error
+                  file is existing .... file content will be displayed
+
+
+example:   fobj = open("customers.txt","w")
+           if the file doesn't exist .... file will be created first
+                   file is already existing..file content will be erased
+
+example:   fobj = open("customers.txt","a")
+           if the file doesn't exist .... file will be created first
+                  file is existing .....   data will be appended at the end
+
+
+
+file read operation
+------------------
+- reading line by line
+- fobj.readlines()
+- fobj.read()          : 
+- using csv library     - builtin library
+- using pandas library  - third-party library
+
+
+
+functions
+- builtin functions
+- user defined functions
+
+user defined functions
+------------------------
+
+passing arguments
+
+- fixed arguments
+- default arguments
+- keyword arguments
+- variable length arguments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
