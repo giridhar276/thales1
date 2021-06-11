@@ -83,7 +83,7 @@ relational operators :
 
 logical operators
 ------------------
-and   or not
+and   or  not
 
 if name.isupper()  and len(name)> 0 :
    # logical statements
@@ -244,6 +244,139 @@ passing arguments
 - default arguments
 - keyword arguments
 - variable length arguments
+
+
+
+
+
+
+libraries
+---------
+
+built-in libraries
+------------------
+Builtin libraries are generally used by everyone which are available by default with python.
+( OS  operations , copy , move , delete , ftp operations , mail sending , maths , statistics , telnet , ssh  )
+
+
+third party libraries
+-------------------
+Depending on the requirement( cloud operations with aws,azure,gc , data science , web developement , image processing, database programming ..... ) , developer has to install the third party library from www.pypi.org
+or pip tool or easy_install tool
+
+importing library
+----------------------
+
+import math
+print(math
+
+
+
+
+
+
+installing library
+-----------------
+
+- using pip tool or easy_install tool
+- installing manually by downloading the file from www.pypi.org
+
+all the third party packages will be insalld in 
+
+C:\Users\gsripath\anaconda3\Lib\site-packages
+
+or
+
+C:\ProgramData\anaconda3
+
+
+
+
+
+
+
+display all existing databases
+-----------------------------
+show databases;
+
+create your database
+----------------------
+create database realestateinfo ;
+
+access your database
+---------------------
+use realestateinfo;
+
+display all tables
+-----------------
+show tables ;     ( will be empty initial )
+
+creating table
+--------------------
+create table realestate ( street varchar(100) , city varchar(100) );
+
+inserting records
+------------------
+insert into realestate values('MG Road','Hyderabad');
+insert into realestate values('GT Road','Delhi');
+
+display all the records
+------------------------
+select * from realestate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
