@@ -262,7 +262,7 @@ Builtin libraries are generally used by everyone which are available by default 
 third party libraries
 -------------------
 Depending on the requirement( cloud operations with aws,azure,gc , data science , web developement , image processing, database programming ..... ) , developer has to install the third party library from www.pypi.org
-or pip tool or easy_install tool
+or pip tool or easy_install tool or conda ( only for anaconda tool )
 
 importing library
 ----------------------
@@ -329,21 +329,117 @@ select * from realestate;
 
 
 
+8000+  builtin libraries  + data analytics
+300000+ third party library
+
+builtin libraries
+-----------------------
+
+os            : os.listdir() os.remove() 
+sys           : system config information   sys.exit(0)
+urllib.request: working with http    ( requests ) 
+math          : mathematical operations
+random        : random numbers
+calendar
+smtplib       : sending mails
+ftplib        : ftp'ng the file
+telnetlib     :
+logging       : logging all the events
+shutil        : copy,move,rmtree ....
+filecmp       : comparing directories
+zipfile       : create/extract the zip files
+rarfile       : create/extract the tar files
+tarfile       : create/extract the tarfiles
+getpass       : shadowing the password
+json          : reading/writing json files
+csv           : reading/writing csv files
+xml        
+sysconfig     : system configuration
+collections   : working with dictionaries
+argparse      : passing args from command line
+optparse      : passing args from command line
+time          : working with date and time
+datetime      : working with date and time
+dateutil      :
+cryptography  : encrypting and decrypting the passwords  
+heapq         : performing array operations
+gzip          : reading gunzip files
+re            : validating the strings   (  grep + sed + awk )
+ipadresss     : validting ip address
+platform      : display platform information
+pathlib       : creating temp files
+threading     : for performing multi threading
+multiprocessing:
+subprocess    : invoking the system commands ( invoking linux or dos commands)     ls  ---> system commands
 
 
 
+frequently used third party libraries
+---------------------------------------
+database related
+----------------
+pymysql   :  mysql
+cx_Oracle :  Oracle
+pymongo   :  MOngoDBB
+pymssql   : sql server
 
 
+web frameworks ( developing web applications)   ( python + javascript + css + HTML)
+--------------
+django
+flask
+bottom
 
+analytics/machine learning
+---------------------------
+numpy
+scipy
+pandas
+seaborn
+statistics
+plotly
+ggplot
+matplotlib   : visualizing data .. bar graph.. pie graph
+scikit-learn :  machine learning algorithms
 
+image processing
+---------------
+pillow
+opencv
 
+APIs ( REST API) ( web services )   ( SOAP services   REST APIs)
+-----
+urllib
+requests
 
+excel programming
+------------------
+openpyxl    : reading/write excel files
+xlsxwriter  : writing to excel file
+pyexcel
+xlrd
+python-docx : working with ms-word
 
+networking
+-----------
+paramiko   :  interacting with remote servers
+netmiko    :  connecting to router/switch
+pyping     :  ping any host or ip address
 
 
 
+web scrapping
+--------------
+beautifulsoup
+scrapy
 
 
+cloud
+------
+oci   : Oracle cloud infrastructure
+boto3 : aws infrastructure
+gcp   : Googld cloud
+azure
 
 
 
@@ -458,6 +554,29 @@ select * from realestate;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class
+----
+class is something like blueprint
+class contains data members(attributes) or member functions
+
+
+object
+-------
+object is the instance of the class.
 
 
 
