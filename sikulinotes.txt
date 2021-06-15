@@ -1,0 +1,272 @@
+Introduction
+What is sikuli ?
+
+Installation setup
+--------------------
+requirements
+install sikuli
+- windows
+Resolution
+
+
+sikuli IDE Interface
+----------------
+Interface Overview
+Take screenshot
+code editor
+Output
+Command list ( left panel)
+Preferences
+sikuli script folder
+
+
+Basic Functions
+-----------------
+
+Click()
+Type()
+Wait()
+DragDrop()
+Find()
+Highlight
+
+Matching & Offset
+-------------------
+Matching( Similarity)
+Target Offset
+
+
+Mouse functions
+------------
+Click          click()
+DoubleClick    doubleClick()
+RightClick     rightClick()
+Hover          hover('Enter Username')
+DragDrop       dragDrop(source,destination)
+MouseDown      mouseDown(Mouse.LEFT)
+MouseUp
+MouseMove      mouseMove(X,Y)
+Scrolling
+
+Keyboard Functions
+-----------------
+Type()
+-------
+click("1623684814685.png")
+
+click("1623685066811.png")
+type('giridhar276@gmail.com')
+sleep(2)
+click("1623684866420.png" )
+type("india@123")
+
+
+Special keys ( ctrl shift tab esc )
+----------------------------------
+documentation : http://doc.sikuli.org/keys.html
+Key.ENTER
+Key.
+
+
+Press single key
+--------------
+sleep(1)
+click("1623686593991.png")
+sleep(1)
+
+type('giri')        
+sleep(3)
+type(Key.TAB)
+sleep(3)
+type('12345')
+sleep(2)
+
+
+Press key combinations - copy  paste
+--------------------------------
+#type("c", Key.CTRL)   # copy
+#type("v","Key.CTRL)   # paste
+
+click(some text on notepad++)
+type(Key.TAB * 5)
+
+
+Find
+---
+test_button = find("1623721664956.png")
+click(test_button)
+
+
+Keyboard Functions
+-----------------
+Wait
+WaitVanish
+Exists
+
+I/O Handling
+--------------
+Popup      popup("Demo")
+Poperror   popError("An error popup")
+Popask     answer = popAsk("Do you want to continue ")
+           print(answer)
+
+Select     item_list = ("perl","python","laptop")
+           answer = select("Please select one language" , options = item_list)
+           print(answer)
+
+Input      answer = input("Enter any value :")
+           print(answer)
+
+
+sikuli Advanced
+--------------
+Regions
+Region Functions ( NearBy LeftRight Below Above )
+Work with Similar images ( checkboxes )
+Clipboard
+Running Sikuli script from command line
+
+
+sikuli tips n tricks
+--------------------
+Start Browser
+
+code
+-----
+type(Key.WIN)
+sleep(1)
+type("chrome www.google.com")
+type(Key.ENTER)
+sleep(2)
+type("techworldguru.com list comprehension")
+type(Key.ENTER)
+sleep(2)
+
+
+type(Key.WIN)
+sleep(1)
+type("chrome --incognito www.google.com")
+type(Key.ENTER)
+sleep(2)
+type("techworldguru.com list comprehension")
+type(Key.ENTER)
+sleep(2)
+
+
+
+Get text from screen
+Find text in browser with search
+Checkboxes
+Use of shortcuts
+
+
+Automate realworld scenarios
+----------------------------
+YouTube
+
+
+Facebook
+---------
+while True :
+    if exists("1623725395844.png"):
+        click("1623725407084.png")
+        sleep(3)
+        type("I will be back soon")
+        sleep(3)        
+        type(Key.ENTER)
+        break
+    ♠
+
+
+Amazon
+Skype
+Game
+Software Installation
+Windows settings
+Android Settings
+Email
+MS Word
+MS Excel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
