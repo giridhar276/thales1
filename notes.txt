@@ -83,7 +83,7 @@ relational operators :
 
 logical operators
 ------------------
-and   or  not
+and   or  not   
 
 if name.isupper()  and len(name)> 0 :
    # logical statements
@@ -134,7 +134,7 @@ built-in functions
 --------------------
 
 print()
-input()
+input()  in python 3.x     raw_input()  in python2.x
 range()
 len()
 help()
@@ -190,6 +190,8 @@ opening the file
 ------------------
 syntax:  object = open(filename,mode)
 example:   fobj = open("customers.txt","r")
+
+context manager :
 
 
 close the file
@@ -337,7 +339,7 @@ builtin libraries
 
 os            : os.listdir() os.remove() 
 sys           : system config information   sys.exit(0)
-urllib.request: working with http    ( requests ) 
+urllib.request: working with http  ( outdated)   ( requests ) 
 math          : mathematical operations
 random        : random numbers
 calendar
