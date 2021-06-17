@@ -1,0 +1,7 @@
+conda create -n 17062021 python==3.8.5
+
+conda activate 17062021
+
+conda install ipykernel
+
+python -m ipykernel install --user --name=17062021
