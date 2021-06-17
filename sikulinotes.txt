@@ -65,7 +65,7 @@ Special keys ( ctrl shift tab esc )
 ----------------------------------
 documentation : http://doc.sikuli.org/keys.html
 Key.ENTER
-Key.
+ 
 
 
 Press single key
@@ -93,7 +93,7 @@ type(Key.TAB * 5)
 
 Find
 ---
-test_button = find("1623721664956.png")
+test_button = find(image)
 click(test_button)
 
 
